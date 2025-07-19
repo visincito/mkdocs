@@ -1,6 +1,5 @@
 Markdown
 mkdocs
 mkdocs-material
-mkdocs-get-deps
 Pygments
 pymdown-extensions
