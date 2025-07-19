@@ -1,5 +1,6 @@
 Markdown
 MarkupSafe
+pymdown-extensions
 mkdocs
 mkdocs-material
 mkdocs-material-extensions
@@ -7,7 +8,6 @@ mkdocs-minify-plugin
 mkdocs-redirects
 mkdocs-rss-plugin
 msgpack
-pymdown-extensions
 python-dateutil
 PyYAML
 pyyaml_env_tag
