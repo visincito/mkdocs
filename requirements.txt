@@ -1,6 +1,6 @@
 Markdown
-mkdocs==1.6.1
+mkdocs
 mkdocs-material
-mkdocs-get-deps==0.2.0
+mkdocs-get-deps
 Pygments
 pymdown-extensions
