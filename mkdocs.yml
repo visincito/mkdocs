@@ -1,0 +1,118 @@
+site_name: Visin Documentación
+site_url: https://docs.grilo.gal
+dev_addr: 0.0.0.0:8000
+
+nav:
+  - Home: index.md
+  - Asterisk:
+      - Paquete voces en Español: asterisk-voice.md
+      - Instalar Asterisk: asterisk-install.md
+      - Pattern Matching: asterisk-pattern.md
+      - Asterisk + chan_dongle: asterisk-dongle.md
+      - Usar GoogleTTS de Google Traslation: asterisk-googletts.md
+  - Kamailio:
+      - Instalar Kamailio con sqlite3: kamailio-install.md
+  - Verbio:
+      - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
+  - Blog:
+      - blog/index.md
+  - About: about.md
+
+theme:
+  name: 'material'
+  logo: images/avatar.png
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+    - toc.follow
+  language: es
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/arrange-bring-forward
+        name: Switch to dark mode
+      primary: indigo
+      accent: deep purple
+
+    # Palette toggle for dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/arrange-send-backward
+        name: Switch to light mode    
+      primary: indigo
+      accent: deep purple
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.critic
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - tags
+  - social
+  - search
+  - blog:
+      blog_dir: blog
+      post_dir: "{blog}/articles"
+      authors_file: "{blog}/.authors.yml"
+      blog_toc: true
+      post_date_format: long
+
+copyright: >
+  Copyright &copy; 2025 Visin – 
+  <a href="#__consent">Change cookie settings</a>
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/visincito
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/Visincito
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:visincito@gmail.com
