@@ -12,3 +12,5 @@ requests
 urllib3
 watchdog
 webencodings
+pillow
+cairosvg
