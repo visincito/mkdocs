@@ -3,3 +3,5 @@ Markdown
 mkdocs
 mkdocs-material
 mkdocs-material-extensions
+pillow
+cairosvg
