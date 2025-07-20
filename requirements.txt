@@ -3,6 +3,7 @@ MarkupSafe
 pymdown-extensions
 mkdocs
 mkdocs-material
+mkdocs-material-extensions
 msgpack
 python-dateutil
 PyYAML
