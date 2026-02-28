@@ -1,5 +1,7 @@
 site_name: Visin Documentación
 site_url: https://docs.grilo.gal
+repo_url: https://github.com/visincito/mkdocs
+repo_name: 'Visin Mkdocs Material'
 dev_addr: 0.0.0.0:8000
 
 nav:
