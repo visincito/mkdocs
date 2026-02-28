@@ -6,16 +6,20 @@ dev_addr: 0.0.0.0:8000
 
 nav:
   - Home: index.md
-  - Asterisk:
-      - Paquete voces en Español: asterisk-voice.md
-      - Instalar Asterisk: asterisk-install.md
-      - Pattern Matching: asterisk-pattern.md
-      - Asterisk + chan_dongle: asterisk-dongle.md
-      - Usar GoogleTTS de Google Traslation: asterisk-googletts.md
-  - Kamailio:
-      - Instalar Kamailio con sqlite3: kamailio-install.md
-  - Verbio:
-      - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
+  - VoIP:
+    - Asterisk:
+        - Paquete voces en Español: asterisk-voice.md
+        - Instalar Asterisk: asterisk-install.md
+        - Pattern Matching: asterisk-pattern.md
+        - Asterisk + chan_dongle: asterisk-dongle.md
+        - Usar GoogleTTS de Google Traslation: asterisk-googletts.md
+    - Kamailio:
+        - Instalar Kamailio con sqlite3: kamailio-install.md
+    - Verbio:
+        - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
+  - Kubernetes:
+    - Kind:
+      - Instalar Kind: kind-install.md
   - Blog:
       - blog/index.md
   - About: about.md
