@@ -88,7 +88,7 @@ markdown_extensions:
 
 plugins:
   - tags
-  - social
+    #  - social
   - search
   - blog:
       blog_dir: blog
