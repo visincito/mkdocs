@@ -90,7 +90,6 @@ markdown_extensions:
 
 plugins:
   - tags
-    #  - social
   - search
   - blog:
       blog_dir: blog
@@ -100,7 +99,7 @@ plugins:
       post_date_format: long
 
 copyright: >
-  Copyright &copy; 2025 Visin – 
+  Copyright &copy; 2026 Visin – 
   <a href="#__consent">Change cookie settings</a>
 
 extra:
