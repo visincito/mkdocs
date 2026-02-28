@@ -8,7 +8,7 @@ kind was primarily designed for testing Kubernetes itself, but may be used for l
 
 If you have [go] 1.17+ and [docker], [podman] or [nerdctl] installed `go install sigs.k8s.io/kind@{{< stableVersion >}} && kind create cluster` is all you need!
 
-<img src="images/kind-create-cluster.png" />
+<img src="https://kind.sigs.k8s.io/images/kind-create-cluster.png" />
 
 kind consists of:
 
