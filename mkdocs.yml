@@ -18,6 +18,9 @@ nav:
     - Verbio:
         - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
   - Kubernetes:
+    - Microk8s:
+      - Know Issues:
+        - Error certificados metrics-server: mk8s-cert-metrics.md
     - Kind:
       - Instalar Kind: kind-install.md
   - Blog:
