@@ -1,7 +1,7 @@
 site_name: Visin Documentación
 site_url: https://docs.grilo.gal
 repo_url: https://github.com/visincito/mkdocs
-repo_name: 'Visin Mkdocs Material'
+repo_name: 'visincito/mkdocs'
 dev_addr: 0.0.0.0:8000
 
 nav:
@@ -45,6 +45,8 @@ theme:
     - content.code.select
     - toc.follow
   language: es
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - scheme: default
