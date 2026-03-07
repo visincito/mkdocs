@@ -86,7 +86,7 @@ El certificado `front-proxy-client` está expirado.
 
 ## Solución: Renovar el certificado expirado
 
-Renovamos únicamente el certificado afectado:
+Renovamos únicamente el certificado afectado, en este caso el front proxy client:
 
 ``` bash
 sudo microk8s refresh-certs -e front-proxy-client.crt
@@ -103,3 +103,6 @@ utiliza el nuevo certificado:
 sudo microk8s disable metrics-server
 sudo microk8s enable metrics-server
 ```
+## Notas
+
+> :mega: Repetir la revisión y la renovación en todos los nodos del cluster.
