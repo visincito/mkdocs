@@ -60,6 +60,6 @@ Aquí recopilo apuntes, guías y configuraciones que considero útiles y que qui
 <div align="center">
   ¿No encuentras lo que buscas? Usa la barra de búsqueda superior, visita mi <a href="https://github.com/visincito" target="_blank">GitHub</a> o contacta conmigo en mis redes.
   <br><br>
-  <a href="about.md" class="md-button md-button--primary">Conocer más sobre mí</a>
+  <a href="/about/" class="md-button md-button--primary">Conocer más sobre mí</a>
   <a href="https://github.com/visincito/mkdocs" class="md-button" target="_blank">Repositorio en GitHub</a>
 </div>
