@@ -17,7 +17,7 @@ Aquí tienes los paquetes completos (core + extras) unificados en un único paqu
 
 ## Paquete de locuciones para Asterisk en Español (es_ES)
 
-Descargar en formato:![Español](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png){ align=right }
+Descargar en formato:![Español](https://th.bing.com/th/id/OIP._W2Jw6VRs1E4zDR4P30tpwHaE7?w=273&h=182&c=7&r=0&o=7&pid=1.7&rm=3){ align=right }
 
 <div class="grid cards" markdown>
 
