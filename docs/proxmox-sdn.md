@@ -1,4 +1,4 @@
-# 🧩 Configuración de SDN en Proxmox
+# Configuración de SDN en Proxmox
 
 Configurando una red **SDN (Software Defined Networking)** en Proxmox para separar entornos de **preproducción** y **producción**, manteniendo aislamiento y control mediante NAT y DHCP.
 
@@ -76,3 +76,4 @@ Subnet: 192.168.100.0/24
 Gateway: 192.168.100.1
 DHCP Range: 192.168.100.50 - 192.168.100.200
 SNAT: Enabled
+```
