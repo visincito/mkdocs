@@ -13,6 +13,8 @@ nav:
         - Pattern Matching: asterisk-pattern.md
         - Asterisk + chan_dongle: asterisk-dongle.md
         - Usar GoogleTTS de Google Traslation: asterisk-googletts.md
+    - proxmox:
+        - Configuracion SDN en Proxmox: proxmox-sdn.md
     - Kamailio:
         - Instalar Kamailio con sqlite3: kamailio-install.md
     - Verbio:
