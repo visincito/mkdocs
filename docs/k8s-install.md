@@ -239,7 +239,7 @@ kubectl edit deployment metrics-server -n kube-system
 
 ---
 
-## 🔍 Verificación del cluster
+## 👀 Verificación del cluster
 
 Comprobamos el estado de todos los recursos:
 
