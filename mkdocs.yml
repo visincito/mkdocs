@@ -18,6 +18,8 @@ nav:
     - Verbio:
         - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
   - Kubernetes:
+    - k8s:
+      - Instalar k8s: k8s-install.md
     - Microk8s:
       - Know Issues:
         - Error certificados metrics-server: mk8s-cert-metrics.md
