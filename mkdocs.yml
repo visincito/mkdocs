@@ -20,6 +20,7 @@ nav:
   - Kubernetes:
     - k8s:
       - Instalar k8s: k8s-install.md
+      - Añadir nodo k8s: k8s-add-node.md
     - Microk8s:
       - Know Issues:
         - Error certificados metrics-server: mk8s-cert-metrics.md
