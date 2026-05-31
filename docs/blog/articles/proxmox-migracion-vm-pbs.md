@@ -92,6 +92,7 @@ vzdump 100 --storage tuxis-pbs --mode snapshot --compress zstd --notification-mo
 ```
 
 **Flags:**
+
 | Flag | 📝 Qué hace |
 |------|-------------|
 | `100` | ID de la VM a respaldar 🆔 |
@@ -162,6 +163,7 @@ qm terminal 100 --iface serial0
 En el nodo origen puedes crear un backup recurrente:
 
 **Datacenter → Backup → Add →**
+
 - Storage: `tuxis-pbs`
 - Schedule: `0 */6 * * *` (cada 6 horas)
 - Selection mode: `Include selected VMs`
