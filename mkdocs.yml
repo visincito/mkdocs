@@ -17,6 +17,7 @@ nav:
         - Instalar Kamailio con sqlite3: kamailio-install.md
     - Verbio:
         - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
+        - Domina Verbio TTS desde CLI: verbio-cli-tts.md
   - Kubernetes:
     - k8s:
       - Instalar k8s: k8s-install.md
@@ -26,8 +27,11 @@ nav:
         - Error certificados metrics-server: mk8s-cert-metrics.md
     - Kind:
       - Instalar Kind: kind-install.md
+    - K9s:
+      - Instalacion y Configuracion de K9s: k9s-install.md
   - proxmox:
     - Configuracion SDN en Proxmox: proxmox-sdn.md
+    - Migrar VM con PBS: proxmox-migracion-vm-pbs.md
   - Blog:
       - blog/index.md
   - About: about.md

@@ -1,10 +1,4 @@
 ---
-draft: false
-date: 2026-05-31
-authors: [Visin]
-categories:
-  - Proxmox
-  - Virtualización
 tags:
   - proxmox
   - pbs
@@ -17,8 +11,6 @@ tags:
 # 🖥️ Migrar VM entre Proxmox usando Proxmox Backup Server (PBS) ☁️
 
 ¿Tienes un cluster de Proxmox y necesitas mover una VM de un nodo a otro? Usando **Proxmox Backup Server (PBS)** como intermediario tienes la solución más limpia, rápida y segura. En este artículo te explico cómo hacerlo usando **Tuxis** como servicio de PBS en la nube 🌩️
-
-<!-- more -->
 
 ---
 
@@ -52,7 +44,7 @@ tags:
 
 Ve a **Datacenter → Storage → Add → Proxmox Backup Server** en la interfaz web y rellena:
 
-![Añadir storage PBS en Datacenter](../../images/pbs-storage.png)
+![Añadir storage PBS en Datacenter](images/pbs-storage.png)
 
 *Captura: Diálogo de configuración del storage PBS en el Datacenter*
 
@@ -74,7 +66,7 @@ Ve a **Datacenter → Storage → Add → Proxmox Backup Server** en la interfaz
 
 > ⚠️ **Importante — Check "Backup" en el disco**: Cada disco duro de la VM tiene un checkbox **Backup** en su configuración. Si no está marcado, ese disco **no se incluirá** en el backup y solo se respaldará la configuración de la VM (¡unos pocos cientos de bytes!). El backup te saldrá diminuto pero inservible para migrar.
 
-![Check de Backup en el disco de la VM](../../images/check-backup-disk.png)
+![Check de Backup en el disco de la VM](images/check-backup-disk.png)
 
 *Captura: Configuración del disco duro de la VM con el check de Backup marcado*
 

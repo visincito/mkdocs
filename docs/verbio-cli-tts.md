@@ -1,11 +1,4 @@
 ---
-draft: false
-date: 2026-05-12
-authors: [Visin]
-categories:
-  - VoIP
-  - Asterisk
-  - TTS
 tags:
   - verbio
   - tts
@@ -19,8 +12,6 @@ tags:
 # 🎙️ Domina Verbio TTS desde CLI: De texto a WAV en 2 comandos 🔥
 
 ¿Necesitas generar locuciones para tu IVR en Asterisk sin depender de servicios externos? **Verbio TTS** al rescate, y lo mejor: desde la **maldita terminal** como Dios manda 💀⚡
-
-<!-- more -->
 
 ---
 

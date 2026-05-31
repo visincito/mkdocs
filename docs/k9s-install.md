@@ -1,10 +1,4 @@
 ---
-draft: false
-date: 2026-04-25
-authors: [Visin]
-categories:
-  - Kubernetes
-  - Herramientas
 tags:
   - k9s
   - kubernetes
@@ -15,8 +9,6 @@ tags:
 # 🐕️ Instalación y Configuración de K9s
 
 K9s es un CLI visual para Kubernetes que te permitirá gestionar tus clusters de forma eficiente 🚀. En esta guía verás todos los métodos de instalación, configuración avanzada y comandos esenciales ⚡.
-
-<!-- more -->
 ---
 
 ## 🎯 ¿Por qué usar K9s?
