@@ -1,5 +1,7 @@
 # ➕ Añadir un nuevo nodo a un cluster de Kubernetes
 
+[:octicons-arrow-left-24: Volver a Kubernetes](index.md)
+
 En este artículo vamos a añadir un nuevo nodo (worker) a un cluster de Kubernetes ya existente. Partimos de un cluster previamente inicializado en el nodo **control-plane**.
 
 ---

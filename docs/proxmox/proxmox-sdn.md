@@ -33,7 +33,7 @@ Esta zona actúa como contenedor lógico para las redes virtuales que vamos a de
 
 📸 **Configuración de la Zone:**
 
-![Zone](image.png)
+![Zone](../images/image.png)
 
 ---
 
@@ -53,7 +53,7 @@ A continuación, he definido dos redes virtuales dentro de la zona:
 
 📸 **Vista de las VNETs:**
 
-![Vnets](image-1.png)
+![Vnets](../images/image-1.png)
 
 ---
 

@@ -1,5 +1,6 @@
 site_name: Visin Documentación
 site_url: https://docs.grilo.gal
+site_description: Documentación técnica sobre VoIP (Asterisk, Kamailio, Verbio), Kubernetes (k8s, Microk8s, Kind, K9s), Proxmox, PNETLab y más.
 repo_url: https://github.com/visincito/mkdocs
 repo_name: 'visincito/mkdocs'
 dev_addr: 0.0.0.0:8000
@@ -7,33 +8,35 @@ dev_addr: 0.0.0.0:8000
 nav:
   - Home: index.md
   - VoIP:
+    - VoIP: voip/index.md
     - Asterisk:
-        - Paquete voces en Español: asterisk-voice.md
-        - Instalar Asterisk: asterisk-install.md
-        - Pattern Matching: asterisk-pattern.md
-        - Asterisk + chan_dongle: asterisk-dongle.md
-        - Usar GoogleTTS de Google Traslation: asterisk-googletts.md
+        - Paquete voces en Español: voip/asterisk-voice.md
+        - Instalar Asterisk: voip/asterisk-install.md
+        - Pattern Matching: voip/asterisk-pattern.md
+        - Asterisk + chan_dongle: voip/asterisk-dongle.md
+        - Usar GoogleTTS de Google Traslation: voip/asterisk-googletts.md
     - Kamailio:
-        - Instalar Kamailio con sqlite3: kamailio-install.md
+        - Instalar Kamailio con sqlite3: voip/kamailio-install.md
     - Verbio:
-        - Crear archivos wav con Verbio TTS cli: verbio-grabar.md
-        - Domina Verbio TTS desde CLI: verbio-cli-tts.md
+        - Crear archivos wav con Verbio TTS cli: voip/verbio-grabar.md
+        - Domina Verbio TTS desde CLI: voip/verbio-cli-tts.md
   - Kubernetes:
+    - Kubernetes: kubernetes/index.md
     - k8s:
-      - Instalar k8s: k8s-install.md
-      - Añadir nodo k8s: k8s-add-node.md
+      - Instalar k8s: kubernetes/k8s-install.md
+      - Añadir nodo k8s: kubernetes/k8s-add-node.md
     - Microk8s:
-      - Know Issues:
-        - Error certificados metrics-server: mk8s-cert-metrics.md
+      - Error certificados metrics-server: kubernetes/mk8s-cert-metrics.md
     - Kind:
-      - Instalar Kind: kind-install.md
+      - Instalar Kind: kubernetes/kind-install.md
     - K9s:
-      - Instalacion y Configuracion de K9s: k9s-install.md
-  - proxmox:
-    - Configuracion SDN en Proxmox: proxmox-sdn.md
-    - Migrar VM con PBS: proxmox-migracion-vm-pbs.md
+      - Instalación y Configuración de K9s: kubernetes/k9s-install.md
+  - Proxmox:
+    - Proxmox: proxmox/index.md
+    - Configuración SDN en Proxmox: proxmox/proxmox-sdn.md
+    - Migrar VM con PBS: proxmox/proxmox-migracion-vm-pbs.md
   - PNETLab:
-    - Acceso remoto con Cloudflare Tunnel: pnetlab-cloudflare-tunnel.md
+    - Acceso remoto con Cloudflare Tunnel: pnetlab/pnetlab-cloudflare-tunnel.md
   - Blog:
       - blog/index.md
   - About: about.md
