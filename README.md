@@ -25,7 +25,15 @@ Repository: https://github.com/visincito/mkdocs
 ## Project Structure
 
     .
-    ├── docs/              # Markdown documentation files
+    ├── docs/
+    │   ├── index.md           # Home
+    │   ├── about.md           # About
+    │   ├── blog/              # Blog plugin content
+    │   ├── images/            # Static images
+    │   ├── voip/              # VoIP (Asterisk, Kamailio, Verbio)
+    │   ├── kubernetes/        # Kubernetes (k8s, Microk8s, Kind, K9s)
+    │   ├── proxmox/           # Proxmox guides
+    │   └── pnetlab/           # PNETLab guides
     ├── mkdocs.yml         # MkDocs configuration file
     ├── requirements.txt   # Python dependencies
     └── .gitignore         # Git ignored files

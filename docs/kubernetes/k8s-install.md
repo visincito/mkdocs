@@ -1,5 +1,7 @@
 # 🚀 Instalación de un nodo de Kubernetes paso a paso
 
+[:octicons-arrow-left-24: Volver a Kubernetes](index.md)
+
 En este artículo vamos a desplegar un nodo de Kubernetes desde cero utilizando herramientas estándar como `kubeadm`, `kubelet` y `kubectl`, junto con el runtime **CRI-O**. Todo el proceso está basado en una instalación manual, ideal para entender qué ocurre en cada capa del sistema.
 
 ---

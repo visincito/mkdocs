@@ -16,7 +16,7 @@ Aquí recopilo apuntes, guías y configuraciones que considero útiles y que qui
 
     Todo sobre telefonía IP. Configuraciones de **Asterisk**, uso de locuciones con **Verbio**, integración de TTS, y despliegues con **Kamailio**.
 
-    [:octicons-arrow-right-24: Ir a VoIP](asterisk-install.md)
+    [:octicons-arrow-right-24: Ir a VoIP](voip/index.md)
 
 -   :material-kubernetes: __Kubernetes__
 
@@ -24,7 +24,7 @@ Aquí recopilo apuntes, guías y configuraciones que considero útiles y que qui
 
     Clústeres locales y pruebas. Guías para instalar y configurar **Microk8s** y **Kind**, junto con resolución de problemas frecuentes.
 
-    [:octicons-arrow-right-24: Ir a Kubernetes](kind-install.md)
+    [:octicons-arrow-right-24: Ir a Kubernetes](kubernetes/index.md)
 
 -   :material-post-outline: __Blog__
 
@@ -51,9 +51,9 @@ Aquí recopilo apuntes, guías y configuraciones que considero útiles y que qui
 ???+ tip "Recursos útiles"
     Si estás empezando con algún servicio o buscando guías de instalación rápida, te recomiendo echar un vistazo a estas páginas:
     
-    * :material-asterisk: [Instalación de Asterisk](asterisk-install.md)
-    * :material-server-network: [Instalación de Kamailio con SQLite3](kamailio-install.md)
-    * :material-docker: [Crear clúster con Kind](kind-install.md)
+    * :material-asterisk: [Instalación de Asterisk](voip/asterisk-install.md)
+    * :material-server-network: [Instalación de Kamailio con SQLite3](voip/kamailio-install.md)
+    * :material-docker: [Crear clúster con Kind](kubernetes/kind-install.md)
 
 ---
 
