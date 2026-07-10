@@ -37,6 +37,8 @@ nav:
     - Migrar VM con PBS: proxmox/proxmox-migracion-vm-pbs.md
   - PNETLab:
     - Acceso remoto con Cloudflare Tunnel: pnetlab/pnetlab-cloudflare-tunnel.md
+  - Correo:
+    - Enviar correo desde Gmail con tu dominio Cloudflare: email/gmail-send-as-cloudflare.md
   - Blog:
       - blog/index.md
   - About: about.md
