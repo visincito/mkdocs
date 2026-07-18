@@ -35,14 +35,14 @@ Now that all of the required packages are installed, our next step is to configu
     ./configure --libdir=/usr/lib64 --with-jansson-bundled=yes
 Assuming that the configuration runs without issue, you should get a large ASCII Asterisk emblem, followed by the following on Rocky Linux:
 
-    ```python
+    
     configure: Package configured for:
     configure: OS type  : linux-gnu
     configure: Host CPU : x86_64
     configure: build-cpu:vendor:os: x86_64 : pc : linux-gnu :
     configure: host-cpu:vendor:os: x86_64 : pc : linux-gnu :
     Set Asterisk menu options [For more options]¶
-    ```
+    
 
 This is one of the steps where the administrator is going to need to do his homework. There are a lot of menu options that you may or may not need. Running the following command:
 
@@ -91,8 +91,8 @@ Remove the comments on the two lines below and save:
     sudo vi /etc/asterisk/asterisk.conf
 Remove the comments on the two lines below and save:
 
-runuser = asterisk ; The user to run as.
-rungroup = asterisk ; The group to run as.
+    runuser = asterisk ; The user to run as.
+    rungroup = asterisk ; The group to run as.
 
 ### Configure Asterisk Service
 
