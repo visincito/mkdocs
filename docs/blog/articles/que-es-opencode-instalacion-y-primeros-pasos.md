@@ -2,7 +2,7 @@
 title: "opencode: el agente de IA en tu terminal que te escribe el código (casi) solo"
 description: "opencode es un agente de IA de código abierto que lee tu proyecto, edita archivos y ejecuta comandos en tu terminal. Guía de instalación y primeros pasos."
 date: 2026-08-18
-author: visin
+authors: [Visin]
 categories:
   - Desarrollo de software
   - Inteligencia Artificial
@@ -24,6 +24,8 @@ draft: false
 Imagina esto: estás en tu terminal, en medio de un refactor de esos que dan miedo a las tres de la tarde, y en lugar de ir copiando y pegando fragmentos de un chat, el agente lee tu proyecto, entiende el contexto, edita los archivos él solo y hasta ejecuta los comandos para comprobar que no has roto nada. Tú solo le dices qué quieres, y él se encarga del resto.
 
 Eso es opencode. Y no, no es otro chatbot que te escupe código para que luego lo pegues tú a mano: es un agente de IA de código abierto que trabaja directamente en tu repo, con acceso al sistema de archivos y con la capacidad de ejecutar comandos. Vamos a ver qué es exactamente, cómo lo instalas en cinco minutos y cómo sacarle partido desde el primer día sin que te destroce nada por el camino.
+
+<!-- more -->
 
 Y ojo, que "agente" aquí no es postureo de marketing. Significa que la herramienta tiene acceso real a tu máquina: lee tu código, lo modifica y ejecuta comandos en tu terminal. Eso es una pasada y a la vez un peligro, así que también vamos a hablar de permisos y de cómo no dejar que un modelo de lenguaje te haga un `rm -rf` a las dos de la mañana.
 
