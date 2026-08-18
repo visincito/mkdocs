@@ -1,7 +1,7 @@
 ---
 title: "opencode: el agente de IA en tu terminal que te escribe el código (casi) solo"
 description: "opencode es un agente de IA de código abierto que lee tu proyecto, edita archivos y ejecuta comandos en tu terminal. Guía de instalación y primeros pasos."
-date: 2026-08-18
+date: 2026-08-18T13:50:00
 authors: [Visin]
 categories:
   - Desarrollo de software

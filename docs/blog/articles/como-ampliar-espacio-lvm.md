@@ -1,7 +1,7 @@
 ---
 title: "Cómo ampliar el espacio de disco en LVM sin despeinarte"
 description: "Amplía el espacio de disco en LVM en caliente, sin reiniciar ni desmontar nada: guía paso a paso con pvcreate, lvextend, resize2fs y xfs_growfs."
-date: 2026-08-18
+date: 2026-08-18T12:00:00
 authors: [Visin]
 categories:
   - Administración de sistemas
